@@ -1,0 +1,5 @@
+Customer, John, Black
+Account, OTP1, 1000
+Account, OTP3, 500
+Customer, Steve, Brown
+Customer, Mary, White

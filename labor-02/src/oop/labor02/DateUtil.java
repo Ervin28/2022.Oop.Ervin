@@ -1,11 +1,23 @@
-package oop.labor02;
+ package oop.labor02;
 
 public class DateUtil {
+
+private int ev,honap,nap;
+public DateUtil(int year, int month, int day){
+    this.ev=year;
+    this.honap=month;
+    this.nap=day;
+
+}
+public DateUtil(){
+
+}
 
     public static boolean leapYear(int year) {
         if (year % 4 == 0) {
             if (year % 100 != 0) {
-                return (year % 400 == 0);
+                if (year % 400 == 0);
+                return true;
             }
         }
         return false;

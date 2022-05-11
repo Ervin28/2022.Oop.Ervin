@@ -41,9 +41,12 @@ public class Main {
        else
            System.out.println("It isn't a valid date");
 
-        if(DateUtil.leapYear(2016))
+        if(DateUtil.leapYear(2020))
             System.out.println("It was a leap year");
         else System.out.println("It wasn't a leap year");
+        DateUtil date1=new DateUtil();
+        date1.leapYear(2011);
+        date1.isValidDate(2001,12,23);
 
     }
 
